@@ -11,14 +11,14 @@ Antes de ejecutar el código, asegúrese de tener instaladas las siguientes libr
 - `pandas`
 
 Puede instalarlas utilizando pip:
-pip install opencv-python numpy pandas
+`pip install opencv-python numpy pandas`
 
 Preparación
 1. Organización de Archivos: Guarde todos los archivos del proyecto en una misma carpeta. Esto es esencial para que el sistema funcione correctamente.
 2. Ejecutar el Sistema: Ejecute el código a través de Main.py
 3. Configuración de Cámaras:
     - Por defecto, el sistema utiliza una sola cámara para el análisis.
-    - Si desea utilizar dos cámaras (una para cada plano), modifique la fuente de video en BackPartAnalysis.py. Cambie video_source de 0 a 1
+    - Si desea utilizar dos cámaras (una para cada plano), modifique la fuente de video en `BackPartAnalysis.py`. Cambie `video_source` de 0 a 1
 
 Interacción con el Sistema
 1. Para avanzar entre los pasos del sistema, presione la tecla Enter.
